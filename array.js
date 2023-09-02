@@ -31,12 +31,31 @@
 
 const arr1=[1,2,3,4,5,6]
 const arr2=arr1.slice(1,3)
-console.log(arr1);
-console.log("array 2 ",arr2);
+// console.log(arr1);
+// console.log("array 2 ",arr2);
 // slice just take values excluding the range
 
 const arr3=arr1.splice(1,3)
-console.log("array 3",arr3);
-console.log(arr1);
+// console.log("array 3",arr3);
+// console.log(arr1);
 // splice removes the elements at index(start,end) includng end from array
+
+
+// array part 2
+// array is an object of javascript
+
+
+const marvel=["thor","ironman","spiderman"]
+const dc=["flash","superman","batman"]
+// const hero=marvel.concat(dc)
+// concat merger two arrays
+// marvel.push(dc)
+// push pushes overall array at an index
+// console.log(hero);
+// console.log(marvel);
+
+const all_new_heroes=[...marvel,...dc]
+// console.log(all_new_heroes);
+
+
 
