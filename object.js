@@ -43,17 +43,17 @@ myobj.greettwo=function()
 // decleration of object using constructor Singleton
 
 // const facebook=new Object()  //SIngleton
-// const facebook={}  //Non Singleton
-// facebook.id="sam123"
-// facebook.name="Sam"
-// facebook.isLoggedIn=false
-//object inside other object
-// facebook.Info={
-//     fname:"Sam",
-//     lname:"Rogers",
-//     age:32,
-//     email:"samrog@gmail.com"
-// }
+const facebook={}  //Non Singleton
+facebook.id="sam123"
+facebook.name="Sam"
+facebook.isLoggedIn=false
+// object inside other object
+facebook.Info={
+    fname:"Sam",
+    lname:"Rogers",
+    age:32,
+    email:"samrog@gmail.com"
+}
 // console.log(facebook);
 
 const info=Object()
@@ -89,8 +89,25 @@ info.remain={
 // console.log(info.hasOwnProperty('isofficial'));//use to check whether a property exist or not
 
 
-const obj1={1:"a",2:"b"}
-const obj2={3:"c",4:"d"}
-const obj3={...obj1,...obj2}
-console.log(obj3);
+// const obj1={1:"a",2:"b"}
+// const obj2={3:"c",4:"d"}
+// const obj3={...obj1,...obj2}
+// console.log(obj3);
 
+//Object part 3
+
+// destructuring
+
+const student={
+    name:"rajesh",
+    age:10,
+    addressofhouse:"malyalampur"
+}
+// console.log(student.addressofhouse);
+// const {addressofhouse: aoh}=student
+// console.log(aoh);
+
+
+// API in javascript
+
+// json format
